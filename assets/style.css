@@ -104,8 +104,9 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 }
 
 .hero--home { height: 76vh; min-height: 520px; }
-.hero--home .hero__inner { justify-content: center; align-items: flex-start; min-height: 100%; }
-.hero--city { height: 52vh; min-height: 380px; }
+.hero--home .hero__inner { justify-content: center; align-items: flex-start; min-height: 100%; padding-top: 110px; padding-bottom: 70px; }
+.hero--city { height: 56vh; min-height: 420px; }
+.hero--city .hero__inner { padding-top: 96px; padding-bottom: 44px; }
 .hero--attraction { min-height: 480px; display: flex; align-items: flex-end; }
 .hero--attraction .hero__inner { width: 100%; padding-top: 120px; padding-bottom: 44px; }
 
@@ -476,6 +477,31 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 
 /* 展品卡片 */
 
+/* 展品分组 */
+
+.exhibit-groups { display: grid; gap: 34px; }
+
+.exhibit-group__title {
+  font-family: var(--serif);
+  font-size: 19px;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.exhibit-group__title span {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--ink-3);
+  text-transform: uppercase;
+}
+
 .exhibit-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
@@ -525,12 +551,17 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 
 /* 历史故事 */
 
-.stories { display: grid; gap: 26px; max-width: 860px; }
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
 
 .story {
   background: var(--bg);
   border: 1px solid var(--line);
-  padding: 26px 30px 24px;
+  padding: 24px 26px 22px;
+  break-inside: avoid;
 }
 .story__title {
   font-family: var(--serif);
