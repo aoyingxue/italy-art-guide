@@ -14,6 +14,7 @@
 ## 图片版权
 
 - 名画与建筑照片来自 [Wikimedia Commons](https://commons.wikimedia.org/)（公有领域），来源清单见构建仓库 `images-src/_manifest.json`
+- 部分现场照片来自 [Unsplash](https://unsplash.com)（Unsplash License，摄影师署名见 `images-src/_unsplash_manifest.json`）
 - 部分实景照片为个人收藏
 - 马格利特等仍在版权保护期的现代作品未使用图片，仅作文字介绍
 
