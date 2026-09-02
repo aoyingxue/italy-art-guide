@@ -477,6 +477,27 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 
 /* 展品卡片 */
 
+/* 内嵌地图（SVG 示意图） */
+
+.map-embed {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.map-embed svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  min-width: 600px;
+}
+
+@media (max-width: 560px) {
+  .map-embed { padding: 8px; }
+  .map-embed svg { min-width: 500px; }
+}
+
 /* 展品分组 */
 
 .exhibit-groups { display: grid; gap: 34px; }
