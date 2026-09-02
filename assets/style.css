@@ -217,6 +217,80 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
   text-transform: uppercase;
 }
 
+/* ---------- 大区与名门（首页） ---------- */
+
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.region-card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--ink);
+  padding: 20px 22px 18px;
+  transition: border-color 0.2s ease;
+}
+.region-card:hover { border-top-color: var(--red); }
+
+.region-card__head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.region-card__head h3 {
+  font-family: var(--serif);
+  font-size: 19px;
+  margin: 0;
+}
+.region-card__it {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+}
+
+.region-card__cities {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+.region-card__cities a {
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line-2);
+  text-underline-offset: 3px;
+}
+.region-card__cities a:hover { color: var(--red); }
+
+.region-card__family {
+  font-size: 13px;
+  color: var(--ink);
+  margin: 0 0 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.region-card__family strong {
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+.region-card__figures {
+  font-size: 11.5px;
+  color: var(--ink-3);
+  margin: 0 0 8px;
+}
+
+.region-card__desc {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--ink-2);
+  margin: 0;
+}
+
 /* ---------- 城市卡片（首页） ---------- */
 
 .city-grid {
