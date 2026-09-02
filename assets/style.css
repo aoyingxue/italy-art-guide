@@ -551,7 +551,7 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 
 /* 展品卡片 */
 
-/* 内嵌地图（SVG 示意图） */
+/* 内嵌地图（SVG 示意图 + 日期筛选） */
 
 .map-embed {
   border: 1px solid var(--line);
@@ -560,7 +560,43 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
   overflow-x: auto;
 }
 
-.map-embed svg {
+.map-filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.map-filter label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.map-filter input[type="date"] {
+  font-family: var(--sans);
+  font-size: 14px;
+  padding: 6px 12px;
+  border: 1px solid var(--line-2);
+  background: var(--bg);
+  color: var(--ink);
+  border-radius: 6px;
+}
+
+.map-filter input[type="date"]:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+.map-status {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.map-svg-wrap svg {
   width: 100%;
   height: auto;
   display: block;
@@ -569,7 +605,8 @@ a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 
 
 @media (max-width: 560px) {
   .map-embed { padding: 8px; }
-  .map-embed svg { min-width: 500px; }
+  .map-svg-wrap svg { min-width: 500px; }
+  .map-filter { flex-wrap: wrap; gap: 8px; }
 }
 
 /* 展品分组 */

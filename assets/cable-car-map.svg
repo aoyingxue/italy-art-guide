@@ -2,90 +2,41 @@
   <text x="500" y="30" font-size="20" font-weight="700" fill="#111" text-anchor="middle" font-family="'Palatino Linotype',Palatino,Georgia,'Songti SC',SimSun,serif">Val Gardena 缆车路线图</text>
   <text x="500" y="50" font-size="10" fill="#999" text-anchor="middle" letter-spacing="3">CABLE CAR NETWORK · VAL GARDENA / GHERDËINA</text>
 
-  <!-- 山体轮廓线（背景装饰） -->
   <path d="M60,155 L140,95 L220,125 L300,70 L380,100 L460,80 L540,110 L620,85 L700,115 L780,80 L860,105 L940,90"
         fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
   <text x="500" y="78" font-size="9" fill="#999" text-anchor="middle" letter-spacing="2">ODELES / GEISLER 群（北）</text>
-
-  <!-- 五座山（均匀分布，间距 ≥ 120px） -->
-  <g text-anchor="middle"><text x="120" y="100" font-size="14" font-weight="700" fill="#111">Resciesa</text><text x="120" y="116" font-size="10" fill="#555">2,280 m</text><path d="M113,134 L120,122 L127,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
-  <g text-anchor="middle"><text x="320" y="100" font-size="14" font-weight="700" fill="#111">Seceda</text><text x="320" y="116" font-size="10" fill="#555">2,519 m</text><path d="M313,134 L320,122 L327,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
-  <g text-anchor="middle"><text x="500" y="100" font-size="14" font-weight="700" fill="#111">Col Raiser</text><text x="500" y="116" font-size="10" fill="#555">2,107 m</text><path d="M493,134 L500,122 L507,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
-  <g text-anchor="middle"><text x="680" y="100" font-size="14" font-weight="700" fill="#111">Ciampinoi</text><text x="680" y="116" font-size="10" fill="#555">2,254 m</text><path d="M673,134 L680,122 L687,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
-  <g text-anchor="middle"><text x="870" y="100" font-size="14" font-weight="700" fill="#111">Passo Gardena</text><text x="870" y="116" font-size="10" fill="#555">2,121 m · 自驾</text><path d="M863,134 L870,122 L877,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
-
-  <!-- Dantercepies（已停，灰色标注） -->
-  <g text-anchor="middle">
-    <text x="870" y="140" font-size="11" fill="#999">Dantercepies</text>
-  </g>
-
-  <!-- Monte Pana（已停，灰色标注，位于镇之间上方） -->
-  <g text-anchor="middle">
-    <text x="620" y="300" font-size="11" fill="#999">Monte Pana</text>
-    <circle cx="620" cy="310" r="4" fill="none" stroke="#999" stroke-width="1.5"/>
-  </g>
-
-  <!-- ① Ortisei → Seceda（近垂直，绿色=开放至11/1） -->
-  <line x1="300" y1="390" x2="320" y2="140" stroke="#2a6b3a" stroke-width="3"/>
-  <circle cx="310" cy="265" r="14" fill="#2a6b3a"/><text x="310" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">①</text>
-
-  <!-- ② Ortisei → Alpe di Siusi（向下，绿色） -->
-  <line x1="310" y1="420" x2="340" y2="500" stroke="#2a6b3a" stroke-width="3"/>
-  <circle cx="325" cy="460" r="14" fill="#2a6b3a"/><text x="325" y="465" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">②</text>
-
-  <!-- ③ Ortisei → Resciesa（左上，橙色=至10/10） -->
-  <line x1="270" y1="390" x2="120" y2="140" stroke="#c07820" stroke-width="3"/>
-  <circle cx="195" cy="265" r="14" fill="#c07820"/><text x="195" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">③</text>
-
-  <!-- ④ S.Cristina → Col Raiser（左上，橙色=至10/31） -->
-  <line x1="550" y1="390" x2="500" y2="140" stroke="#c07820" stroke-width="3"/>
-  <circle cx="525" cy="265" r="14" fill="#c07820"/><text x="525" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">④</text>
-
-  <!-- ⑤ Selva → Ciampinoi（左上，橙色=至10/10） -->
-  <line x1="740" y1="390" x2="680" y2="140" stroke="#c07820" stroke-width="3"/>
-  <circle cx="710" cy="265" r="14" fill="#c07820"/><text x="710" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑤</text>
-
-  <!-- ⑥ Selva → Dantercepies（右上，红色=已停） -->
-  <line x1="810" y1="390" x2="870" y2="150" stroke="#b33a2e" stroke-width="2.5" stroke-dasharray="6,4"/>
-  <circle cx="840" cy="265" r="14" fill="#b33a2e"/><text x="840" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑥</text>
-
-  <!-- ⑦ S.Cristina → Monte Pana（短横线，红色=已停） -->
-  <line x1="580" y1="390" x2="620" y2="315" stroke="#b33a2e" stroke-width="2.5" stroke-dasharray="6,4"/>
-  <circle cx="600" cy="355" r="14" fill="#b33a2e"/><text x="600" y="360" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑦</text>
-
-  <!-- 山谷公路 -->
+  <g text-anchor="middle"><text x="120" y="92" font-size="14" font-weight="700" fill="#111">Resciesa</text><text x="120" y="106" font-size="10" fill="#111">雷谢萨山</text><text x="120" y="120" font-size="9" fill="#555">2,280 m</text><path d="M113,134 L120,124 L127,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="320" y="92" font-size="14" font-weight="700" fill="#111">Seceda</text><text x="320" y="106" font-size="10" fill="#111">刀锋山</text><text x="320" y="120" font-size="9" fill="#555">2,519 m</text><path d="M313,134 L320,124 L327,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="500" y="92" font-size="14" font-weight="700" fill="#111">Col Raiser</text><text x="500" y="106" font-size="10" fill="#111">雷萨尔山口</text><text x="500" y="120" font-size="9" fill="#555">2,107 m</text><path d="M493,134 L500,124 L507,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="680" y="92" font-size="14" font-weight="700" fill="#111">Ciampinoi</text><text x="680" y="106" font-size="10" fill="#111">钱皮诺伊山</text><text x="680" y="120" font-size="9" fill="#555">2,254 m</text><path d="M673,134 L680,124 L687,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="870" y="92" font-size="14" font-weight="700" fill="#111">Passo Gardena</text><text x="870" y="106" font-size="10" fill="#111">加尔代纳山口 · 自驾</text><text x="870" y="120" font-size="9" fill="#555">2,121 m</text><path d="M863,134 L870,124 L877,134 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <text x="870" y="145" font-size="10" fill="#999" text-anchor="middle">Dantercepies</text>
+  <text x="620" y="300" font-size="11" fill="#999" text-anchor="middle">Monte Pana</text>
+  <circle cx="620" cy="310" r="4" fill="none" stroke="#999" stroke-width="1.5"/>
+<g class="lift" data-lift="1" data-start="2026-05-21" data-end="2026-11-01"><line x1="300" y1="390" x2="320" y2="140" stroke="#2a6b3a" stroke-width="3"/><circle class="lift-num" cx="310" cy="265" r="14" fill="#2a6b3a"/><text x="310" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">①</text></g><g class="lift" data-lift="2" data-start="2026-04-30" data-end="2026-11-01"><line x1="310" y1="420" x2="340" y2="500" stroke="#2a6b3a" stroke-width="3"/><circle class="lift-num" cx="325" cy="460" r="14" fill="#2a6b3a"/><text x="325" y="465" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">②</text></g><g class="lift" data-lift="3" data-start="2026-05-15" data-end="2026-10-10"><line x1="270" y1="390" x2="120" y2="140" stroke="#c07820" stroke-width="3"/><circle class="lift-num" cx="195" cy="265" r="14" fill="#c07820"/><text x="195" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">③</text></g><g class="lift" data-lift="4" data-start="2026-05-21" data-end="2026-10-31"><line x1="550" y1="390" x2="500" y2="140" stroke="#c07820" stroke-width="3"/><circle class="lift-num" cx="525" cy="265" r="14" fill="#c07820"/><text x="525" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">④</text></g><g class="lift" data-lift="5" data-start="2026-06-05" data-end="2026-10-10"><line x1="740" y1="390" x2="680" y2="140" stroke="#c07820" stroke-width="3"/><circle class="lift-num" cx="710" cy="265" r="14" fill="#c07820"/><text x="710" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑤</text></g><g class="lift" data-lift="6" data-start="2026-06-11" data-end="2026-10-03"><line x1="810" y1="390" x2="870" y2="150" stroke="#b33a2e" stroke-width="3" stroke-dasharray="6,4"/><circle class="lift-num" cx="840" cy="265" r="14" fill="#b33a2e"/><text x="840" y="270" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑥</text></g><g class="lift" data-lift="7" data-start="2026-06-05" data-end="2026-09-26"><line x1="580" y1="390" x2="620" y2="315" stroke="#b33a2e" stroke-width="3" stroke-dasharray="6,4"/><circle class="lift-num" cx="600" cy="355" r="14" fill="#b33a2e"/><text x="600" y="360" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑦</text></g>
   <line x1="30" y1="420" x2="970" y2="420" stroke="#ccc" stroke-width="3"/>
-
-  <!-- Bus 350 虚线 -->
   <line x1="30" y1="420" x2="970" y2="420" stroke="#888" stroke-width="1.5" stroke-dasharray="8,5"/>
   <text x="60" y="408" font-size="10" fill="#888" font-weight="600">Bus 350 · Bolzano ↔ Selva</text>
   <path d="M20,420 L35,420 M35,420 L28,416 M35,420 L28,424" stroke="#888" stroke-width="1.5" fill="none"/>
   <text x="18" y="440" font-size="9" fill="#888">← Bolzano</text>
   <text x="950" y="440" font-size="9" fill="#888" text-anchor="end">Passo Gardena →</text>
 
-  <!-- 三镇（横向排列，间距 ≥ 200px） -->
-  <!-- Ortisei（实心 = 推荐大本营） -->
   <g text-anchor="middle">
     <rect x="220" y="390" width="140" height="32" rx="8" fill="#111"/>
     <text x="290" y="411" font-size="15" font-weight="700" fill="#fff">Ortisei</text>
     <text x="290" y="440" font-size="10" fill="#555">1,236 m · ★ 推荐大本营</text>
   </g>
-
-  <!-- S. Cristina -->
   <g text-anchor="middle">
     <rect x="480" y="390" width="140" height="32" rx="8" fill="none" stroke="#111" stroke-width="1.5"/>
     <text x="550" y="411" font-size="15" font-weight="700" fill="#111">S. Cristina</text>
     <text x="550" y="440" font-size="10" fill="#555">1,428 m</text>
   </g>
-
-  <!-- Selva -->
   <g text-anchor="middle">
     <rect x="710" y="390" width="100" height="32" rx="8" fill="none" stroke="#111" stroke-width="1.5"/>
     <text x="760" y="411" font-size="15" font-weight="700" fill="#111">Selva</text>
     <text x="760" y="440" font-size="10" fill="#555">1,563 m</text>
   </g>
 
-  <!-- 草甸区域 -->
   <rect x="200" y="490" width="320" height="80" rx="12" fill="none" stroke="#ccc" stroke-width="1.5" stroke-dasharray="8,5"/>
   <g text-anchor="middle">
     <text x="360" y="515" font-size="14" font-weight="700" fill="#111" font-family="'Palatino Linotype',Palatino,Georgia,'Songti SC',SimSun,serif">Alpe di Siusi 休斯高原</text>
@@ -93,51 +44,40 @@
     <text x="360" y="548" font-size="9" fill="#999">草甸内禁车 · 自驾停 Compatsch 停车场</text>
   </g>
 
-  <!-- 南侧山群（与草甸不重叠） -->
-  <g text-anchor="middle">
-    <text x="580" y="530" font-size="11" font-weight="600" fill="#111">Sassolungo</text>
-    <text x="580" y="546" font-size="9" fill="#555">3,181 m</text>
-    <text x="700" y="530" font-size="11" font-weight="600" fill="#111">Sassopiatto</text>
-    <text x="700" y="546" font-size="9" fill="#555">2,694 m</text>
-    <text x="150" y="530" font-size="11" font-weight="600" fill="#111">Sciliar</text>
-    <text x="150" y="546" font-size="9" fill="#555">2,563 m</text>
-  </g>
+  <!-- 南侧山群（带三角标记 + 中文名） -->
+  <g text-anchor="middle"><text x="130" y="510" font-size="12" font-weight="700" fill="#111">Sciliar</text><text x="130" y="524" font-size="10" fill="#111">施利里亚山</text><text x="130" y="538" font-size="9" fill="#555">2,563 m</text><path d="M125,552 L130,542 L135,552 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="580" y="510" font-size="12" font-weight="700" fill="#111">Sassolungo</text><text x="580" y="524" font-size="10" fill="#111">长石峰</text><text x="580" y="538" font-size="9" fill="#555">3,181 m</text><path d="M575,552 L580,542 L585,552 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
+  <g text-anchor="middle"><text x="720" y="510" font-size="12" font-weight="700" fill="#111">Sassopiatto</text><text x="720" y="524" font-size="10" fill="#111">平石峰</text><text x="720" y="538" font-size="9" fill="#555">2,694 m</text><path d="M715,552 L720,542 L725,552 Z" fill="none" stroke="#111" stroke-width="1.5"/></g>
 
-  <!-- 远郊方向（右下角） -->
+  <!-- 远郊方向 -->
   <g font-size="9" fill="#999" text-anchor="middle">
-    <text x="920" y="490">Tre Cime</text>
-    <text x="920" y="503">自驾 1.5h →</text>
-    <text x="920" y="520">Braies 湖</text>
-    <text x="920" y="533">自驾 1h →</text>
+    <text x="920" y="500">Tre Cime</text>
+    <text x="920" y="513">自驾 1.5h →</text>
+    <text x="920" y="530">Braies 湖</text>
+    <text x="920" y="543">自驾 1h →</text>
   </g>
 
-  <!-- 分隔线 -->
   <line x1="30" y1="590" x2="970" y2="590" stroke="#ccc" stroke-width="1.5"/>
-
-  <!-- 表格标题 -->
   <text x="500" y="618" font-size="15" font-weight="700" fill="#111" text-anchor="middle" font-family="'Palatino Linotype',Palatino,Georgia,'Songti SC',SimSun,serif">缆车线路与 2026 年运营状态</text>
 
-  <!-- 表头 -->
   <g font-size="10" font-weight="600" fill="#555">
     <text x="55" y="645">线</text>
     <text x="90" y="645">缆车名称</text>
     <text x="240" y="645">起点 → 终点</text>
     <text x="520" y="645">票价</text>
     <text x="630" y="645">2026 运营季</text>
-    <text x="800" y="645">10 月状态</text>
+    <text x="800" y="645">状态</text>
   </g>
   <line x1="30" y1="655" x2="970" y2="655" stroke="#111" stroke-width="1"/>
 
-  <!-- 7 行数据（行高 38px，编号圆不与文字重叠） -->
-  <g><circle cx="62" cy="672" r="14" fill="#2a6b3a"/><text x="62" y="677" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">①</text><text x="90" y="676" font-size="12" font-weight="600" fill="#111">Furnes-Seceda</text><text x="240" y="676" font-size="11" fill="#555">Ortisei → Seceda 2,519 m</text><text x="520" y="676" font-size="11" fill="#555">€35 往返</text><text x="630" y="676" font-size="11" fill="#555">5/21 - 11/1</text><text x="800" y="676" font-size="12" font-weight="700" fill="#2a6b3a">开放 ✓</text></g><line x1="30" y1="692" x2="970" y2="692" stroke="#ccc" stroke-width="0.5"/>
-  <g><circle cx="62" cy="710" r="14" fill="#2a6b3a"/><text x="62" y="715" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">②</text><text x="90" y="714" font-size="12" font-weight="600" fill="#111">Alpe di Siusi</text><text x="240" y="714" font-size="11" fill="#555">Ortisei → Alpe di Siusi 1,700 m</text><text x="520" y="714" font-size="11" fill="#555">€30 往返</text><text x="630" y="714" font-size="11" fill="#555">4/30 - 11/1</text><text x="800" y="714" font-size="12" font-weight="700" fill="#2a6b3a">开放 ✓</text></g><line x1="30" y1="730" x2="970" y2="730" stroke="#ccc" stroke-width="0.5"/>
-  <g><circle cx="62" cy="748" r="14" fill="#c07820"/><text x="62" y="753" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">③</text><text x="90" y="752" font-size="12" font-weight="600" fill="#111">Resciesa</text><text x="240" y="752" font-size="11" fill="#555">Ortisei → Resciesa 2,280 m</text><text x="520" y="752" font-size="11" fill="#555">~€20 往返</text><text x="630" y="752" font-size="11" fill="#555">5/15 - 10/10</text><text x="800" y="752" font-size="12" font-weight="700" fill="#c07820">10/10 止 ⚠</text></g><line x1="30" y1="768" x2="970" y2="768" stroke="#ccc" stroke-width="0.5"/>
-  <g><circle cx="62" cy="786" r="14" fill="#c07820"/><text x="62" y="791" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">④</text><text x="90" y="790" font-size="12" font-weight="600" fill="#111">Col Raiser</text><text x="240" y="790" font-size="11" fill="#555">S. Cristina → Col Raiser 2,107 m</text><text x="520" y="790" font-size="11" fill="#555">~€30 往返</text><text x="630" y="790" font-size="11" fill="#555">5/21 - 10/31</text><text x="800" y="790" font-size="12" font-weight="700" fill="#c07820">10/31 止 ⚠</text></g><line x1="30" y1="806" x2="970" y2="806" stroke="#ccc" stroke-width="0.5"/>
-  <g><circle cx="62" cy="824" r="14" fill="#c07820"/><text x="62" y="829" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑤</text><text x="90" y="828" font-size="12" font-weight="600" fill="#111">Ciampinoi</text><text x="240" y="828" font-size="11" fill="#555">Selva → Ciampinoi 2,254 m</text><text x="520" y="828" font-size="11" fill="#555">~€30 往返</text><text x="630" y="828" font-size="11" fill="#555">6/5 - 10/10</text><text x="800" y="828" font-size="12" font-weight="700" fill="#c07820">10/10 止 ⚠</text></g><line x1="30" y1="844" x2="970" y2="844" stroke="#ccc" stroke-width="0.5"/>
-  <g opacity="0.5"><circle cx="62" cy="862" r="14" fill="#b33a2e"/><text x="62" y="867" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑥</text><text x="90" y="866" font-size="12" font-weight="600" fill="#111">Dantercepies</text><text x="240" y="866" font-size="11" fill="#555">Selva → Passo Gardena</text><text x="520" y="866" font-size="11" fill="#555">—</text><text x="630" y="866" font-size="11" fill="#555">6/11 - 10/3</text><text x="800" y="866" font-size="12" font-weight="700" fill="#b33a2e">已停 ✗</text></g><line x1="30" y1="882" x2="970" y2="882" stroke="#ccc" stroke-width="0.5"/>
-  <g opacity="0.5"><circle cx="62" cy="900" r="14" fill="#b33a2e"/><text x="62" y="905" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑦</text><text x="90" y="904" font-size="12" font-weight="600" fill="#111">Monte Pana</text><text x="240" y="904" font-size="11" fill="#555">S. Cristina → Monte Pana</text><text x="520" y="904" font-size="11" fill="#555">—</text><text x="630" y="904" font-size="11" fill="#555">6/5 - 9/26</text><text x="800" y="904" font-size="12" font-weight="700" fill="#b33a2e">已停 ✗</text></g><line x1="30" y1="920" x2="970" y2="920" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="1" data-start="2026-05-21" data-end="2026-11-01"><circle class="lift-num" cx="62" cy="672" r="14" fill="#2a6b3a"/><text x="62" y="677" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">①</text><text x="90" y="676" font-size="12" font-weight="600" fill="#111">Furnes-Seceda</text><text x="240" y="676" font-size="11" fill="#555">Ortisei → Seceda 2,519 m</text><text x="520" y="676" font-size="11" fill="#555">€35 往返</text><text x="630" y="676" font-size="11" fill="#555">05/21 - 11/01</text><text class="lift-status" data-lift-status="1" x="800" y="676" font-size="12" font-weight="700" fill="#2a6b3a" text-anchor="start"></text></g><line x1="30" y1="692" x2="970" y2="692" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="2" data-start="2026-04-30" data-end="2026-11-01"><circle class="lift-num" cx="62" cy="710" r="14" fill="#2a6b3a"/><text x="62" y="715" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">②</text><text x="90" y="714" font-size="12" font-weight="600" fill="#111">Alpe di Siusi</text><text x="240" y="714" font-size="11" fill="#555">Ortisei → Alpe di Siusi 1,700 m</text><text x="520" y="714" font-size="11" fill="#555">€30 往返</text><text x="630" y="714" font-size="11" fill="#555">04/30 - 11/01</text><text class="lift-status" data-lift-status="2" x="800" y="714" font-size="12" font-weight="700" fill="#2a6b3a" text-anchor="start"></text></g><line x1="30" y1="730" x2="970" y2="730" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="3" data-start="2026-05-15" data-end="2026-10-10"><circle class="lift-num" cx="62" cy="748" r="14" fill="#c07820"/><text x="62" y="753" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">③</text><text x="90" y="752" font-size="12" font-weight="600" fill="#111">Resciesa</text><text x="240" y="752" font-size="11" fill="#555">Ortisei → Resciesa 2,280 m</text><text x="520" y="752" font-size="11" fill="#555">~€20 往返</text><text x="630" y="752" font-size="11" fill="#555">05/15 - 10/10</text><text class="lift-status" data-lift-status="3" x="800" y="752" font-size="12" font-weight="700" fill="#c07820" text-anchor="start"></text></g><line x1="30" y1="768" x2="970" y2="768" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="4" data-start="2026-05-21" data-end="2026-10-31"><circle class="lift-num" cx="62" cy="786" r="14" fill="#c07820"/><text x="62" y="791" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">④</text><text x="90" y="790" font-size="12" font-weight="600" fill="#111">Col Raiser</text><text x="240" y="790" font-size="11" fill="#555">S. Cristina → Col Raiser 2,107 m</text><text x="520" y="790" font-size="11" fill="#555">~€30 往返</text><text x="630" y="790" font-size="11" fill="#555">05/21 - 10/31</text><text class="lift-status" data-lift-status="4" x="800" y="790" font-size="12" font-weight="700" fill="#c07820" text-anchor="start"></text></g><line x1="30" y1="806" x2="970" y2="806" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="5" data-start="2026-06-05" data-end="2026-10-10"><circle class="lift-num" cx="62" cy="824" r="14" fill="#c07820"/><text x="62" y="829" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑤</text><text x="90" y="828" font-size="12" font-weight="600" fill="#111">Ciampinoi</text><text x="240" y="828" font-size="11" fill="#555">Selva → Ciampinoi 2,254 m</text><text x="520" y="828" font-size="11" fill="#555">~€30 往返</text><text x="630" y="828" font-size="11" fill="#555">06/05 - 10/10</text><text class="lift-status" data-lift-status="5" x="800" y="828" font-size="12" font-weight="700" fill="#c07820" text-anchor="start"></text></g><line x1="30" y1="844" x2="970" y2="844" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="6" data-start="2026-06-11" data-end="2026-10-03" opacity="0.5"><circle class="lift-num" cx="62" cy="862" r="14" fill="#b33a2e"/><text x="62" y="867" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑥</text><text x="90" y="866" font-size="12" font-weight="600" fill="#111">Dantercepies</text><text x="240" y="866" font-size="11" fill="#555">Selva → Passo Gardena</text><text x="520" y="866" font-size="11" fill="#555">—</text><text x="630" y="866" font-size="11" fill="#555">06/11 - 10/03</text><text class="lift-status" data-lift-status="6" x="800" y="866" font-size="12" font-weight="700" fill="#b33a2e" text-anchor="start"></text></g><line x1="30" y1="882" x2="970" y2="882" stroke="#ccc" stroke-width="0.5"/>
+  <g class="lift-legend" data-lift="7" data-start="2026-06-05" data-end="2026-09-26" opacity="0.5"><circle class="lift-num" cx="62" cy="900" r="14" fill="#b33a2e"/><text x="62" y="905" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">⑦</text><text x="90" y="904" font-size="12" font-weight="600" fill="#111">Monte Pana</text><text x="240" y="904" font-size="11" fill="#555">S. Cristina → Monte Pana</text><text x="520" y="904" font-size="11" fill="#555">—</text><text x="630" y="904" font-size="11" fill="#555">06/05 - 09/26</text><text class="lift-status" data-lift-status="7" x="800" y="904" font-size="12" font-weight="700" fill="#b33a2e" text-anchor="start"></text></g><line x1="30" y1="920" x2="970" y2="920" stroke="#ccc" stroke-width="0.5"/>
 
-  <!-- 底部提示框 -->
   <g transform="translate(30,935)">
     <rect x="0" y="0" width="940" height="50" rx="6" fill="none" stroke="#2a6b3a" stroke-width="1.2"/>
     <text x="470" y="20" font-size="11" fill="#2a6b3a" font-weight="600" text-anchor="middle">
